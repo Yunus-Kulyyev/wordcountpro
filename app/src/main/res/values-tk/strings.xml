@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Text Analyzer</string>
+    <string name="scan">Skanirla</string>
+    <string name="enter">Yaz yada kopiyala</string>
+    <string name="characters">Harplar</string>
+    <string name="words">Sözler</string>
+    <string name="sentences">Sentences</string>
+    <string name="paragraphs">Paragraphs</string>
+    <string name="occurence_title">Köp Ulanylan Sözler</string>
+    <string name="overview_title">Overview</string>
+    <string name="analysis">Analizy</string>
+    <string name="total_character_count">Jemi Harp Sany: </string>
+    <string name="total_whitespace_count">Total Whitespace Count: </string>
+    <string name="total_word_count">Jemi Söz Sany: </string>
+    <string name="total_sentence_count">Total Sentence Count: </string>
+    <string name="total_paragraph_count">Total Paragraph Count: </string>
+    <string name="number_different_words">Number of Different Words: </string>
+    <string name="word_variety_ratio">Word Variety Ratio: </string>
+    <string name="readability">Readability (6-easy 20-hard): </string>
+    <string name="reading_speed">Reading Speed</string>
+    <string name="average_adult">Average Adult (250 wpm): </string>
+    <string name="college_level">College Student (300 wpm): </string>
+    <string name="professional_speaker">Professional Speaker (180 wpm): </string>
+    <string name="word_length">Word Length</string>
+    <string name="word_count">Word Count</string>
+    <string name="frequency">Frequency</string>
+    <string name="length_distribution">Word Length Distribution</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="custom_speed">Custom words/minute:</string>
+
+    <string name="minutes">minutes</string>
+    <string name="word">Word</string>
+    <string name="occurrences">Occurrences</string>
+    <string name="longest_word">Longest Word: </string>
+    <string name="longest_sentence">Longest Sentence: </string>
+    <string name="frequency_help">High frequency words are in green. Consider changing them for added variety</string>
+    <string name="disclaimer">Text Evaluator uses Text Recognition library that is
+provided by Google\'s Machine Learning Kit. Due to the complexity of analyzing the text, we recommend you to not rely heavily on the camera feature of this app when used with important texts</string>
+    <string name="made_by_student">Made by College Student</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="min_char_per_word">Min characters per word:</string>
+    <string name="archive">Archive</string>
+    <string name="rate_app">Rate this App</string>
+    <string name="contact">Contact Me</string>
+    <string name="about_me">About me and app</string>
+    <string name="encounter_problem">If you encounter a bug or inaccuracy, feel free to contact me. I will try to fix them as soon as possible. Thank you!</string>
+    <string name="app_description">This app is designed to increase your productivity and make your life easy. The app is an effective tool to analyze your essay paper before submitting or for any other platforms that do require the word limit. This app collects the most frequent words to generate a statistics of most popular words that will be available to you in the upcoming update.</string>
+    <string name="connect_with_us">Connect with us</string>
+    <string name="instagram">You can find me on Instagram</string>
+    <string name="youtube">Check out my tutorials</string>
+    <string name="clear_archive">Clear Archive</string>
+    <string name="are_you_sure">"Are you sure you want to clear archive?</string>
+    <string name="delete_success">Deleted Successfully</string>
+    <string name="camera_permission">Need Camera Permission to Use Camera Mode</string>
+    <string name="scan_success">Scanned Successfully. Saved in Archive</string>
+    <string name="scan_fail">Scan Failed</string>
+    <string name="save_exit">Save and exit</string>
+
+    <string name="translate_app">Help Translate</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="server_client_id" translatable="false">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="syntax_title">Syntax Analysis</string>
+    <string name="syntax_expl">Click on each word to see syntax and morphological analysis.</string>
+
+    <string name="words_per_minute">words per minute</string>
+    <string name="sentiment">Overall Sentiment</string>
+    <string name="sentiment_expl">score of the sentiment ranges between 0 (negative) and 100 (positive) and corresponds to the overall emotional leaning of the text. We are using Cloud Natural Language Machine Learning Kit provided by Google</string>
+    <string name="entities_list">List of Entities</string>
+    <string name="name">Name:</string>
+    <string name="type">Type:</string>
+    <string name="importance">Importance:</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="super_dark_theme">Super Dark Theme</string>
+
+</resources>

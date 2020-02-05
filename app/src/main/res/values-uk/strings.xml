@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Аналізатор тексту</string>
+    <string name="scan">Сканувати</string>
+    <string name="enter">Ввести текст чи вставити тут</string>
+    <string name="characters">Символів</string>
+    <string name="words">Слів</string>
+    <string name="sentences">Речень</string>
+    <string name="paragraphs">Абзаців</string>
+    <string name="occurence_title">Найуживаніші слова</string>
+    <string name="overview_title">Огляд</string>
+    <string name="analysis">Аналіз</string>
+    <string name="total_character_count">Усього символів: </string>
+    <string name="total_whitespace_count">Усього пробілів: </string>
+    <string name="total_word_count">Усього слів: </string>
+    <string name="total_sentence_count">Усього речень: </string>
+    <string name="total_paragraph_count">Усього абзаців: </string>
+    <string name="number_different_words">Кількість унікальних слів: </string>
+    <string name="word_variety_ratio">Співвідношення різних слів: </string>
+    <string name="readability">Читабельність (6-легко 20-важко): </string>
+    <string name="reading_speed">Швидкість читання</string>
+    <string name="average_adult">Пересічний дорослий (250 слів/хв): </string>
+    <string name="college_level">Студент (300 слів/хв): </string>
+    <string name="professional_speaker">Професіональний оратор (180 слів/хв): </string>
+    <string name="word_length">Довжина слова</string>
+    <string name="word_count">Кількість слів</string>
+    <string name="frequency">Частота</string>
+    <string name="length_distribution">Розподіл довжини слова</string>
+    <string name="recommendation">Рекомендація</string>
+    <string name="custom_speed">Користувацьких слів/хв:</string>
+
+    <string name="minutes">хвилини</string>
+    <string name="word">Слово</string>
+    <string name="occurrences">Поширеність</string>
+    <string name="longest_word">Найдовше слово: </string>
+    <string name="longest_sentence">Найдовше речення: </string>
+    <string name="frequency_help">Слова, що зустрічаються найчастіше, позначено зеленим. Радимо замінити їх для покращення різноманітності</string>
+    <string name="disclaimer">Оцінювач текстів використовує бібліотеку, що постачається Google\'s Machine Learning Kit. Зважаючи на складність тексту, радимо особливо не покладатися на роботу камери цієї програми при роботі з важливими текстами</string>
+    <string name="made_by_student">Зроблено студентом коледжу</string>
+    <string name="dark_theme">Темна тема</string>
+    <string name="min_char_per_word">Мінімум символів на слово:</string>
+    <string name="archive">Архів</string>
+    <string name="rate_app">Оцінити цю програму</string>
+    <string name="contact">Зв\'язатися зі мною</string>
+    <string name="about_me">Про мене та програму</string>
+    <string name="encounter_problem">Якщо Ви виявили помилку чи недолік, зв\'яжіться з мною. Я спробую якнайшвидше їх усунути. Щиро вдячний!</string>
+    <string name="app_description">Ця програма призначена для збільшення Вашої продуктивності та полегшення життя. Ця програма є ефективним інструментом для аналізу Ваших праць перед їх поданням викладачам або до інших платформ, що встановлюють ліміт слів. Ця програма збирає найбільш уживані слова для створення статистики найбільш використовуваних слів, що буде Вам доступна у найближчому оновленні.</string>
+    <string name="connect_with_us">Зв\'язатися з нами</string>
+    <string name="instagram">Мене можна знайти в інстаграмі</string>
+    <string name="youtube">Ознайомитися з моїми порадами</string>
+    <string name="clear_archive">Очистити архів</string>
+    <string name="are_you_sure">"Ви справді бажаєте очистити архів?</string>
+    <string name="delete_success">Успішно очищено</string>
+    <string name="camera_permission">Для використання режиму камери необхідний відповідний дозвіл</string>
+    <string name="scan_success">Сканування успішне. Збережено в архіві</string>
+    <string name="scan_fail">Сканування невдале</string>
+    <string name="save_exit">Зберегти та вийти</string>
+
+    <string name="translate_app">Допоможіть перекласти</string>
+
+    <string name="title_activity_navigation">Навігаційна діяльність</string>
+    <string name="navigation_drawer_open">Відкрити навігаційну шухляду</string>
+    <string name="navigation_drawer_close">Закрити навігаційну шухляду</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Заголовок навігації</string>
+    <string name="action_settings">Налаштування</string>
+
+    <string name="menu_home">Головна</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Показ слайдів</string>
+    <string name="menu_tools">Інструменти</string>
+    <string name="menu_share">Поділитися</string>
+    <string name="menu_send">Надіслати</string>
+
+    <string name="server_client_id" translatable="false">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="syntax_title">Синтаксичний аналіз</string>
+    <string name="syntax_expl">Торкніться кожного слова, щоб переглянути синтаксичний та морфологічний аналіз.</string>
+
+    <string name="words_per_minute">слів за хвилину</string>
+    <string name="sentiment">Загальне враження</string>
+    <string name="sentiment_expl">Бали загального враження варіюються від 0 (негативне) до 100 (позитивне) та залежать від загального емоційного враження від тексту. Ми використовуємо Cloud Natural Language Machine Learning Kit, що постачається Google</string>
+    <string name="entities_list">Список організацій</string>
+    <string name="name">Назва:</string>
+    <string name="type">Тип:</string>
+    <string name="importance">Важливість:</string>
+    <string name="light_theme">Світла тема</string>
+    <string name="super_dark_theme">Супертемна тема</string>
+
+</resources>

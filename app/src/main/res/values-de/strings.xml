@@ -1,0 +1,90 @@
+<!--Max Muller-->
+<resources>
+    <string name="app_name">Text Analyzer</string>
+    <string name="scan">Scannen</string>
+    <string name="enter">Text hier eingeben oder einfügen</string>
+    <string name="characters">Zeichen</string>
+    <string name="words">Wörter</string>
+    <string name="sentences">Sätze</string>
+    <string name="paragraphs">Absätze</string>
+    <string name="occurence_title">Häufig vorkommende Wörter</string>
+    <string name="overview_title">Übersicht</string>
+    <string name="analysis">Analyse</string>
+    <string name="total_character_count">Anzahl der Zeichen: </string>
+    <string name="total_whitespace_count">Anzahl der Leerzeichen: </string>
+    <string name="total_word_count">Anzahl der Wörter: </string>
+    <string name="total_sentence_count">Anzahl der Sätze: </string>
+    <string name="total_paragraph_count">Anzahl der Absätze: </string>
+    <string name="number_different_words">Anzahl der unterschiedlichen Wörter:</string>
+    <string name="word_variety_ratio">Verhältnis unterschiedlicher Wörter:</string>
+    <string name="readability">Lesbarkeit (6-einfach/20-schwer): </string>
+    <string name="reading_speed">Lesegeschwindigkeit</string>
+    <string name="average_adult">Erwachsener(250w/m) </string>
+    <string name="college_level">Student (300w/m) </string>
+    <string name="professional_speaker">Prof. Sprecher(180w/m) </string>
+    <string name="word_length">Wortlänge</string>
+    <string name="word_count">Anzahl der Wörter</string>
+    <string name="frequency">Prozentualer Anteil des Wortes im Text</string>
+    <string name="length_distribution">Verteilung der längsten Wörter im Text</string>
+    <string name="recommendation">Empfehlung</string>
+    <string name="custom_speed">Verarbeitete Wörter pro Minute</string>
+
+    <string name="minutes">Minuten</string>
+    <string name="word">Wort</string>
+    <string name="occurrences">Häufigkeit</string>
+    <string name="longest_word">Längstes Wort: </string>
+    <string name="longest_sentence">Längster Satz: </string>
+    <string name="frequency_help">Häufig verwendete Wörter sind grün, abhängig von der Häufigkeit des verwendeten Wortes im Text</string>
+    <string name="disclaimer">Der Text Evalutator verwendet die Texterkennungssoftware, welche von Google Machine Leraning Kit bereitgestellt wird. Aufgrund der Komplexität der Analyse des Textes empfehlen wir Ihnen, sich nicht zu sehr auf die Kamerafunktion dieser App zu verlassen.</string>
+    <string name="made_by_student">Erstellt von einem Hochschulstudenten</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="min_char_per_word">Wort mit der geringsten Zeichenanzahl</string>
+    <string name="archive">Archiv</string>
+    <string name="rate_app">Bewerte diese App</string>
+    <string name="contact">Kontaktiere uns</string>
+    <string name="about_me">Über uns und diese App</string>
+    <string name="encounter_problem">Falls Ihnen ein Fehler oder ein Problem auffällt, zögern Sie nicht, mich zu kontaktieren. Ich werde versuchen diese so schnell wie möglich zu beseitigen.</string>
+    <string name="app_description">Diese App wurde dazu entwickelt um Ihre Produktivität zu erhöhen. Sie ist ein perfektes Werkzeug um Texte vor dem versenden bzw. abgeben oder veröffentlichen zu analysieren und kann für Plattformen, welche ein bestimmtes Wortlimit erfordern verwendet werden. Die App berücksichtigt häufig verwendete Wörter im Text, um eine Statistik der beliebtesten Wörter zu erstellen, welche Ihnen im kommenden Update zur Verfügung stehen werden.</string>
+    <string name="connect_with_us">Kontaktieren Sie uns</string>
+    <string name="instagram">Sie können mich auch auf Instagram finden</string>
+    <string name="youtube">Sehen Sie sich meine Tutorials an</string>
+    <string name="clear_archive">Archiv löschen</string>
+    <string name="are_you_sure">Sind Sie sicher, dass Sie das Archiv löschen wollen?</string>
+    <string name="delete_success">Archiv erfolgreich gelöscht.</string>
+    <string name="camera_permission">Die App benötigt den Zugriff auf die Kamera um den Kameramodus zu verwenden.</string>
+    <string name="scan_success">Scannen erfolgreich! Der Scan wurde im Archiv gespeichert.</string>
+    <string name="scan_fail">Leider ist der Scan fehlgeschlagen. Versuche es noch einmal</string>
+
+    <string name="translate_app">Bitte hilf uns die App zu übersetzen.</string>
+
+    <string name="syntax_title">Syntax Analyse</string>
+    <string name="syntax_expl">Drücken Sie auf ein Wort, um die Syntax und Morphologie Analyse des Wortes zu erhalten.</string>
+
+    <string name="title_activity_navigation">Navigationsverlauf</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="words_per_minute">wörter pro minute</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="sentiment">Gesamtstimmung</string>
+    <string name="sentiment_expl">Die Bewertung der Stimmung liegt zwischen 0 (negativ) und 100 (positiv) und entspricht der gesamten emotionalen Neigung des Textes.Wir verwenden das von Google bereitgestellte Cloud Natural Language Machine Learning Kit</string>
+    <string name="entities_list">Liste der Entitäten</string>
+    <string name="name">Name:</string>
+    <string name="type">Typ:</string>
+    <string name="importance">Bedeutung:</string>
+    <string name="light_theme">Lichtthema</string>
+    <string name="super_dark_theme">Super dunkles Thema</string>
+    <string name="save_exit">Speichern und schließen</string>
+</resources>

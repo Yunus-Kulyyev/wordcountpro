@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Analizador de Textos</string>
+    <string name="scan">Escanear</string>
+    <string name="enter">Ingresar texto o pegar acá</string>
+    <string name="characters">Caracteres</string>
+    <string name="words">Palabras</string>
+    <string name="sentences">Oraciones</string>
+    <string name="paragraphs">Párrafos</string>
+    <string name="occurence_title">Palabras más frecuentes</string>
+    <string name="overview_title">Síntesis</string>
+    <string name="analysis">Análisis</string>
+    <string name="total_character_count">Conteo total de caracteres: </string>
+    <string name="total_whitespace_count">Conteo total de caracteres incluyendo espacios: </string>
+    <string name="total_word_count">Conteo total de palabras: </string>
+    <string name="total_sentence_count">Conteo total de oraciones: </string>
+    <string name="total_paragraph_count">Conteo total de párrafos: </string>
+    <string name="number_different_words">Cantidad de palabra distintas: </string>
+    <string name="word_variety_ratio">Proporción de diversidad de palabras: </string>
+    <string name="readability">Legibilidad (6-fácil 20-difícil): </string>
+    <string name="reading_speed">Velocidad de lectura</string>
+    <string name="average_adult">Adulto promedio (250 ppm): </string>
+    <string name="college_level">Estudiante universitario (300 ppm): </string>
+    <string name="professional_speaker">Orador profesional (180 ppm): </string>
+    <string name="word_length">Longitud de palabras</string>
+    <string name="word_count">Conteo de palabras</string>
+    <string name="frequency">Frecuencia</string>
+    <string name="length_distribution">Distribución según longitud de palabras</string>
+    <string name="recommendation">Sugerencia</string>
+    <string name="custom_speed">Personalizar palabras/minuto:</string>
+
+    <string name="minutes">minutos</string>
+    <string name="word">Palabra</string>
+    <string name="occurrences">Frecuencias</string>
+    <string name="longest_word">Palabra más larga: </string>
+    <string name="longest_sentence">Oración más larga: </string>
+    <string name="frequency_help">Las palabras de mayor frecuencia están marcadas en verde. Considere sustituirlas para sumar ampliar el léxico </string>
+    <string name="disclaimer">El analizador de textos usa la librería de reconocimiento de textos provista por Google\'s Machine Learning Kit. Debido a la complejidad al analizar el texto, recomendamos no depender principalmente de la cámara cuando se emplee con textos de importancia </string>
+    <string name="made_by_student">Hecha por estudiante universitario</string>
+    <string name="dark_theme">Tema oscuro</string>
+    <string name="min_char_per_word">Caracteres mínimos por palabra:</string>
+    <string name="archive">Historial</string>
+    <string name="rate_app">Califica la aplicación</string>
+    <string name="contact">Contactame</string>
+    <string name="about_me">Sobre mi y la aplicación</string>
+    <string name="encounter_problem">Si encuentras un bug o un error, por favor contáctame. Trataré de arreglarlo tan pronto como sea posible. ¡Muchas Gracias! </string>
+    <string name="app_description">Esta aplicación está diseñada para mejorar tu productividad y facilitar tu vida. La aplicación es una herramienta efectiva para analizar tus ensayos y escritos antes de presentarlos o para cualquier otra plataforma de distribución que requiere un límite de extensión. Esta aplicación recoge las palabras más frecuentes para generar estadísticas de las palabras más populares, lo que estará disponible en las próximas actualizaciones.</string>
+    <string name="connect_with_us">Conectémonos</string>
+    <string name="instagram">Puedes encontrarme en Instagram</string>
+    <string name="youtube">Chequea mis tutoriales</string>
+    <string name="clear_archive">Eliminar historial</string>
+    <string name="are_you_sure">"¿Estás seguro de querer eliminar el historial?</string>
+    <string name="delete_success">Elminado correctamente</string>
+    <string name="camera_permission">Requiere permisos de la Cámara para usar el Modo Cámara </string>
+    <string name="scan_success">Escaneado correctamente. Guardado en el historial</string>
+    <string name="scan_fail">Error al escanear</string>
+
+    <string name="translate_app">Ayuda a traducir</string>
+
+    <string name="title_activity_navigation">Actividad del explorador</string>
+    <string name="navigation_drawer_open">Abrir pestaña de navegación</string>
+    <string name="navigation_drawer_close">Cerrar pestaña de navegación</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Presentación</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Enviar</string>
+    <string name="entities_list">Listado de entidades</string>
+    <string name="importance">" Importancia:"</string>
+    <string name="light_theme">Tema de la luz</string>
+    <string name="name">Nombre:</string>
+    <string name="sentiment">Sentimiento general</string>
+    <string name="sentiment_expl">la puntuación del sentimiento varía entre 0 (negativo) y 100 (positivo) y corresponde a la inclinación emocional general del texto. Estamos utilizando el Kit de aprendizaje automático de Cloud Natural Language proporcionado por Google</string>
+    <string name="super_dark_theme">Super Dark Theme</string>
+    <string name="syntax_expl">Haga clic en cada palabra para ver la sintaxis y el análisis morfológico.</string>
+    <string name="syntax_title">Análisis de sintaxis</string>
+    <string name="type">" Tipo:"</string>
+    <string name="words_per_minute">palabras por minuto</string>
+    <string name="save_exit">Guardar y Salir</string>
+</resources>

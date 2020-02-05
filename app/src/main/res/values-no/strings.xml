@@ -1,0 +1,89 @@
+<resources>
+<string name="app_name">Tekst Analysator</string>
+<string name="scan">Skann</string>
+<string name="enter">Skriv eller lime inn her</string>
+<string name="characters">Karakterer</string>
+<string name="words">Ord</string>
+<string name="sentences">Setninger</string>
+<string name="paragraphs">Paragrafer</string>
+<string name="occurence_title">Topp Oppståtte Ord</string>
+<string name="overview_title">Oversikt</string>
+<string name="analysis">Analysere</string>
+<string name="total_character_count">Totale Karakter Opptellede: </string>
+<string name="total_whitespace_count">Totalt Hvitrom Opptellede: </string>
+<string name="total_word_count">Totale Ord Opptellede: </string>
+<string name="total_sentence_count">Totale Setning Opptellede: </string>
+<string name="total_paragraph_count">Totale Paragrafer Opptellede: </string>
+<string name="number_different_words">Nummer på Forskjellige Ord: </string>
+<string name="word_variety_ratio">Ord Variasjon Ratio: </string>
+<string name="readability">Lesetilgang (6-enkelt 20-hardt): </string>
+<string name="reading_speed">Lese Hastighet</string>
+<string name="average_adult">Øvrige Voksen (250 wpm): </string>
+<string name="college_level">Skole Student (300 wpm): </string>
+<string name="professional_speaker">Professjonell Taler (180 wpm): </string>
+<string name="word_length">Ord Lengde</string>
+<string name="word_count">Ord Opptellt</string>
+<string name="frequency">Frekvens</string>
+<string name="length_distribution">Ord Lengde Distribusjon</string>
+<string name="recommendation">Anbefaling</string>
+<string name="custom_speed">Tilpasset ord/minutt:</string>
+
+<string name="minutes">minutter</string>
+<string name="word">Ord</string>
+<string name="occurrences">Forekomster</string>
+<string name="longest_word">Lengste Ord: </string>
+<string name="longest_sentence">Lengste Setning: </string>
+<string name="frequency_help">Høyt frekvens ord er grønne. Foretrekk å endre dem for å legge til variasjon</string>
+<string name="disclaimer">Text Evaluator bruker Text Gjennkjenning bibliotek som er
+levert av Google\s Maskin Lærings Verktøy. På grunn av kompleksiteten av å abalysere teksten, så anbefaler vi deg å ikke stole fullt på camera egenskapen til denne appen når den brukes med viktige tekster</string>
+<string name="made_by_student">Laget av Skole Student</string>
+<string name="dark_theme">Mørk Thema</string>
+<string name="min_char_per_word">Min karakterer per ord:</string>
+<string name="archive">Arkiv</string>
+<string name="rate_app">Bedøm denne Appen</string>
+<string name="contact">Kontakt Meg</string>
+<string name="about_me">Om meg og appen</string>
+<string name="encounter_problem">Hvis du støter på en feil eller unøyaktighet, kan du gjerne kontakte meg.  Jeg vil prøve å fikse dem så snart som mulig.  Takk skal du ha!</string>
+<string name="app_description">Denne appen er designet for å øke produktiviteten og gjøre livet ditt enkelt.  Appen er et effektivt verktøy for å analysere essaysoppgaven før du sender den inn eller for alle andre platformer som krever ordgrensen. Denne appen samler mest ofte brukte ord til å generere en statistikk av mest populære ord som vil være tilgjengelig til deg i den kommende oppdatering.</string>
+<string name="connect_with_us">Kom i kontakt med oss</string>
+<string name="instagram">Du kan finne meg på Instagram</string>
+<string name="youtube">Sekk ut mine tutorialer</string>
+<string name="clear_archive">Slett Arkiv</string>
+<string name="are_you_sure">"Er du sikker på at du vil slette arkivet?</string>
+<string name="delete_success">Slettet Suksessfullt</string>
+<string name="camera_permission">Trenger Kamera Tillatelse for å bruke kamera Modus</string>
+<string name="scan_success">Skannet Suksessfullt. Lagret i Arkiv</string>
+<string name="scan_fail">Skann Feilet</string>
+<string name="save_exit">Lagre og lukk</string>
+
+<string name="translate_app">Hjelp Til med å Oversette</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="server_client_id" translatable="false">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+<string name="syntax_title">Syntax Analyse</string>
+<string name="syntax_expl">Klikk på hvert ord tfor å se syntax og morphologiske analyser.</string>
+
+<string name="words_per_minute">ord per minutt</string>
+<string name="sentiment">Alt i alt Sentimenter</string>
+<string name="sentiment_expl">skore på sentimenten rangeres mellom 0 (negative) og 100 (positive) og korresponderer til alt i alt emotionelle læring av teksten. Vi bruker Sky Naturlige Språk Maskin Lærings Verktøy sørget for av Google</string>
+<string name="entities_list">Liste av Enheter</string>
+<string name="name">Navn:</string>
+<string name="type">Type:</string>
+<string name="importance">Viktighet:</string>
+<string name="light_theme">Lyst Tena</string>
+<string name="super_dark_theme">Super Mørk Tema</string>
+
+    </resources>

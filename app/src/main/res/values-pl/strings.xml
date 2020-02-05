@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Jakub Chwastek-->
+<resources>
+    <string name="app_name">Analiza Tekstu</string>
+    <string name="scan">Skanuj</string>
+    <string name="enter">Wpisz lub wklej tutaj</string>
+    <string name="characters">Znaki</string>
+    <string name="words">Słowa</string>
+    <string name="sentences">Zdania</string>
+    <string name="paragraphs">Akapity</string>
+    <string name="occurence_title">Najczęstsze słowa</string>
+    <string name="overview_title">Podgląd</string>
+    <string name="analysis">Analiza</string>
+    <string name="total_character_count">Łączna ilość znaków: </string>
+    <string name="total_whitespace_count">Łączna ilość pustego miejsca: </string>
+    <string name="total_word_count">Łączna ilość słów: </string>
+    <string name="total_sentence_count">Łączna ilość zdań: </string>
+    <string name="total_paragraph_count">Łączna ilość akapitów: </string>
+    <string name="number_different_words">Liczba różnych słów: </string>
+    <string name="word_variety_ratio">Różnorodność wyrazów: </string>
+    <string name="readability">Czytelność (6-łatwe 20-trudne): </string>
+    <string name="reading_speed">Prędkość czytania</string>
+    <string name="average_adult">Przeciętny dorosły (250 słów/minutę): </string>
+    <string name="college_level">Student (300 słów/minutę): </string>
+    <string name="professional_speaker">Osoba mówiąca płynnie językiem (180 słów/minutę): </string>
+    <string name="word_length">Długość słowa</string>
+    <string name="word_count">Ilość słów</string>
+    <string name="frequency">Częstotliwość</string>
+    <string name="length_distribution">Rozmieszczenie słów i ich długość</string>
+    <string name="recommendation">Porady</string>
+    <string name="custom_speed">Wybrane słowa/minutę:</string>
+
+    <string name="minutes">minuty</string>
+    <string name="word">Słowo</string>
+    <string name="occurrences">Występowanie</string>
+    <string name="longest_word">Najdłuższe słowo: </string>
+    <string name="longest_sentence">Najdłuższe zdanie: </string>
+    <string name="frequency_help">Często występujące słowa są na zielono. Rozważ zmianę ich, by nadać pracy różnorodności.</string>
+    <string name="disclaimer">Ewaluator tekstu używa biblioteki Rozpoznawania Tekstu dostarczonej przez Zestaw do uczenia maszynowego Google. Ze względu na złożoność w analizowaniu tekstu, nie polecamy bardzo ufać funkcji kamery tej aplikacji podczas używania jej do ważnych tekstów</string>
+    <string name="made_by_student">Stworzone przez studenta koledżu</string>
+    <string name="dark_theme">Ciemny motyw</string>
+    <string name="min_char_per_word">Minimum znaków na słowo:</string>
+    <string name="archive">Archiwum</string>
+    <string name="rate_app">Oceń aplikację</string>
+    <string name="contact">Kontakt</string>
+    <string name="about_me">O mnie i aplikacji</string>
+    <string name="encounter_problem">W razie problemu lub niedokładności proszę o kontakt. Postaram się to naprawić tak szybko jak to możliwe. Dziękuję!</string>
+    <string name="app_description">Ta aplikacja została stworzona, by podnieść Twoją produktywność i ułatwić Ci życie. Ta aplikacja to efektywne narzędzie do analizowania esejów przed przedłożeniem lub innych prac wymagających limitu słów. Aplikacja gromadzi dane o najczęściej używanych słowach do generowania statystyk najpopularniejszych słów, które będą dostępne w nadchodzącej aktualizacji.</string>
+    <string name="connect_with_us">Kontakt</string>
+    <string name="instagram">Znajdziesz mnie na Instagramie</string>
+    <string name="youtube">Sprawdź moje poradniki</string>
+    <string name="clear_archive">Wyczyść archiwum</string>
+    <string name="are_you_sure">"Na pewno chcesz wyczyścić archiwum?</string>
+    <string name="delete_success">Usunięto pomyślnie</string>
+    <string name="camera_permission">Wymaga pozwolenia kamery na użycie trybu kamery</string>
+    <string name="scan_success">Zeskanowano pomyślnie. Zapisano w archiwum</string>
+    <string name="scan_fail">Skan nieudany</string>
+
+    <string name="translate_app">Pomóż tłumaczyć</string>
+
+    <string name="syntax_title">Analiza składniowa</string>
+    <string name="syntax_expl">Kliknij każde słowo, aby zobaczyć składnię i analizę morfologiczną.</string>
+
+    <string name="title_activity_navigation">Aktywność nawigacji</string>
+    <string name="navigation_drawer_open">Otwórz menu nawigacji</string>
+    <string name="navigation_drawer_close">Zamknij menu nawigacji</string>
+    <string name="nav_header_title">Studio Android</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Nagłówek nawigacji</string>
+    <string name="action_settings">Ustawienia</string>
+
+    <string name="menu_home">Menu</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Pokaz slajdów</string>
+    <string name="menu_tools">Narzędzia</string>
+    <string name="menu_share">Udostępnij</string>
+    <string name="menu_send">Wyślij</string>
+
+    <string name="words_per_minute">słów/minutę</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="sentiment">Ogólne Zdanie</string>
+    <string name="sentiment_expl">wynik sentymentu mieści się w przedziale od 0 (negatywny) do 100 (pozytywny) i odpowiada ogólnemu pochyleniu emocjonalnemu tekstu. Wykorzystujemy Cloud Learning Language Machine Kit dostarczony przez Google</string>
+    <string name="entities_list">Lista Podmiotów</string>
+    <string name="name">Nazwa:</string>
+    <string name="type">Rodzaj:</string>
+    <string name="importance">" Znaczenie:"</string>
+    <string name="light_theme">Lekki motyw</string>
+    <string name="super_dark_theme">Super Dark Theme</string>
+    <string name="save_exit">" Zapisz i wyjdź"</string>
+</resources>

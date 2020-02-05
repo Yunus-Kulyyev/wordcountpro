@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Text Analyzer</string>
+
+    //-----------------------------------------
+    <string name="scan">Escanear</string>
+    <string name="enter">Introduce o pega aquí</string>
+    <string name="characters">Caracteres</string>
+    <string name="words">Palabras</string>
+    <string name="sentences">Frases</string>
+    <string name="paragraphs">Párrafos</string>
+    <string name="occurence_title">Top palabras ocurridas</string>
+    <string name="overview_title">Visión general</string>
+    <string name="analysis">Análisis</string>
+    <string name="total_character_count">Recuento total de caracteres: </string>
+    <string name="total_whitespace_count">Recuento total de espacios en blanco: </string>
+    <string name="total_word_count">Recuento total de palabras: </string>
+    <string name="total_sentence_count">Recuento total de oraciones: </string>
+    <string name="total_paragraph_count">Recuento total de párrafos: </string>
+    <string name="number_different_words">Número de palabras diferentes: </string>
+    <string name="word_variety_ratio">Razón de variedad de palabras: </string>
+    <string name="readability">Legibilidad (6-fácil 20-duro): </string>
+    <string name="reading_speed">Velocidad de lectura</string>
+    <string name="average_adult">Promedio de adultos (250 ppm): </string>
+    <string name="college_level">Estudiante universitario (300 ppm): </string>
+    <string name="professional_speaker">Ponente profesional (180 ppm): </string>
+    <string name="word_length">Longitud de palabra</string>
+    <string name="word_count">El recuento de palabras</string>
+    <string name="frequency">Frecuencia</string>
+    <string name="length_distribution">Distribución de longitud de palabra</string>
+    <string name="recommendation">Recomendación</string>
+    <string name="custom_speed">velocidad personalizada:</string>
+
+    <string name="translate_app">Help Translate</string>
+
+    <string name="minutes">minutos</string>
+    <string name="word">Palabra</string>
+    <string name="occurrences">Ocurrencias</string>
+    <string name="longest_word">Palabra mas larga: </string>
+    <string name="longest_sentence">Oración más larga: </string>
+    <string name="frequency_help">Las palabras de mayor frecuencia están marcadas en verde. Considere sustituirlas para sumar ampliar el léxico</string>
+    <string name="disclaimer">Text Evaluator utiliza la biblioteca de reconocimiento de texto que es
+proporcionado por Firebase Machine Learning Kit de Google. Debido a la complejidad de analizar el texto, específicamente
+En textos escritos a mano, le recomendamos que no confíe demasiado en la función de la cámara de esta aplicación cuando la utilice con texto escrito a mano.</string>
+    <string name="made_by_student">Hecho por estudiante universitario</string>
+    <string name="dark_theme">Tema oscuro</string>
+    <string name="min_char_per_word">Min caracteres por palabra:</string>
+    <string name="archive">Archivo</string>
+    <string name="rate_app">Califica esta aplicación</string>
+    <string name="contact">Contáctame</string>
+    <string name="about_me">Acerca de mi y de la aplicación</string>
+
+    <string name="encounter_problem">Si encuentra un error o imprecisión, no dude en ponerse en contacto conmigo. Intentaré arreglarlos lo antes posible. ¡Gracias!</string>
+    <string name="app_description">Esta aplicación está diseñada para aumentar su productividad y hacer su vida más fácil. La aplicación es una herramienta eficaz para analizar su ensayo antes de enviarlo o para cualquier otra plataforma que requiera el límite de palabras.</string>
+    <string name="connect_with_us">Conectate con nosotros</string>
+    <string name="instagram">Me puedes encontrar en Instagram</string>
+    <string name="youtube">Mira mis tutoriales</string>
+    <string name="clear_archive">Borrar archivo</string>
+    <string name="are_you_sure">¿Estás seguro de que quieres borrar el archivo?</string>
+    <string name="delete_success">Borrado exitosamente</string>
+    <string name="camera_permission">Necesita permiso de la cámara para usar el modo de cámara</string>
+    <string name="scan_success">Escaneado con éxito. Guardado en archivo</string>
+    <string name="scan_fail">Error de escaneo</string>
+
+
+    <string name="syntax_title">Análisis de sintaxis</string>
+    <string name="syntax_expl">Haga clic en cada palabra para ver la sintaxis y el análisis morfológico.</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="words_per_minute">palabras por minuto</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="sentiment">Sentimiento general</string>
+    <string name="sentiment_expl">la puntuación del sentimiento varía entre 0 (negativo) y 100 (positivo) y corresponde a la inclinación emocional general del texto. Estamos utilizando el Kit de aprendizaje automático de Cloud Natural Language proporcionado por Google</string>
+    <string name="entities_list">Listado de entidades</string>
+    <string name="name">Nombre:</string>
+    <string name="type">" Tipo:"</string>
+    <string name="importance">" Importancia:"</string>
+    <string name="light_theme">Tema de la luz</string>
+    <string name="super_dark_theme">Super Dark Theme</string>
+    <string name="save_exit">Guardar y Salir</string>
+</resources>

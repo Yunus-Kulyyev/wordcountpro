@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Ahmet Turan Sönmez-->
+
+<resources>
+    <string name="app_name">Metin Analizcisi</string>
+    <string name="scan">Tara</string>
+    <string name="enter">Gir ya da Yapıştır</string>
+    <string name="characters">Karakterler</string>
+    <string name="words">Kelimeler</string>
+    <string name="sentences">Cümleler</string>
+    <string name="paragraphs">Paragraflar</string>
+    <string name="occurence_title">En Çok Kelime</string>
+    <string name="overview_title">Genel bakış</string>
+    <string name="analysis">Analiz</string>
+    <string name="total_character_count">Toplam Karakter Sayısı: </string>
+    <string name="total_whitespace_count">Toplam Boşluk Sayısı: </string>
+    <string name="total_word_count">Toplam Sözcük Sayısı: </string>
+    <string name="total_sentence_count">Toplam Cümle Sayısı: </string>
+    <string name="total_paragraph_count">Toplam Paragraf Sayısı: </string>
+    <string name="number_different_words">Farklı Kelimelerin Sayısı: </string>
+    <string name="word_variety_ratio">Kelime Çeşitliliği: </string>
+    <string name="readability">Okunabilirlik (6-kolay 20-zor): </string>
+    <string name="reading_speed">Okuma Hızı</string>
+    <string name="average_adult">Ortalama Yetişkin (250 k/m): </string>
+    <string name="college_level">Kolej Öğrencisi (300 k/m): </string>
+    <string name="professional_speaker">Profesyonel Konuşmacı (180 k/m): </string>
+    <string name="word_length">Kelime Uzunluğu</string>
+    <string name="word_count">Sayılan Kelime</string>
+    <string name="frequency">Frekans</string>
+    <string name="length_distribution">Kelime Uzunluğu Dağılımı</string>
+    <string name="recommendation">Tavsiyr</string>
+    <string name="custom_speed">Özel Kelime /Dakika:</string>
+
+    <string name="minutes">Dakika</string>
+    <string name="word">Kelime</string>
+    <string name="occurrences">Olaylar</string>
+    <string name="longest_word">En Uzun Kelime: </string>
+    <string name="longest_sentence">En Uzun Cümle: </string>
+    <string name="frequency_help">Yüksek sıklıktaki kelimeler yeşil renktedir. Çeşitlilik için onları değiştirebilirsiniz.</string>
+    <string name="disclaimer">Metin değerlendiricisi, google\'ın makine öğrenme kiti tarafından sağlanan metin tanıma kitaplığını kullanır. Metni analiz etmenin karmaşıklığı nedeniyle, önemli metinlerle birlikte kullanıldığında, bu uygulamanın kamera özelliğine çok fazla güvenmemenizi öneririz.</string>
+    <string name="made_by_student">Üniversite Öğrencisi Tarafından Yapıldı</string>
+    <string name="dark_theme">Koyu Tema</string>
+    <string name="min_char_per_word">Kelime başına minimum karakter:</string>
+    <string name="archive">Arşiv</string>
+    <string name="rate_app">Uygulamaya oy ver</string>
+    <string name="contact">Benimle iletişime Geç</string>
+    <string name="about_me">Ben ve uygulama hakkında</string>
+    <string name="encounter_problem">Bir hata veya yanlışlık ile karşılaşırsanız, benimle temas kurmaktan çekinmeyin. Onları en kısa sürede düzeltmeye çalışacağım. Teşekkür ederim!</string>
+    <string name="app_description">Bu uygulama verimliliğinizi artırmak ve hayatınızı kolaylaştırmak için tasarlanmıştır. Uygulamaya yazmadan önce veya makale sınırını gerektiren diğer platformlar için makale ödevini analiz etmek için etkili bir araçtır. Bu uygulama yaklaşan güncellemede sizin için mevcut olacak en popüler kelimelerin bir istatistiklerini oluşturmak için en sık kullanılan kelimeleri toplar.</string>
+    <string name="connect_with_us">Benimle iletişime geç</string>
+    <string name="instagram">Beni instagram da bulabilirsin.</string>
+    <string name="youtube">Benim Videolarıma Bak</string>
+    <string name="clear_archive">Arşivi Temizle</string>
+    <string name="are_you_sure">Arşivi silecek misin ?</string>
+    <string name="delete_success">Başarıyla Silindi</string>
+    <string name="camera_permission">Kameranı kullanmaya ihtiyacım var</string>
+    <string name="scan_success">Tarama Başarılı.Arşive aktarıldı</string>
+    <string name="scan_fail">Tarama Başarılı</string>
+
+    <string name="translate_app">çevirmeme yardım et</string>
+
+    <string name="syntax_title">Sözdizimi Analizi</string>
+    <string name="syntax_expl">Sözdizimi ve morfolojik analizleri görmek için her kelimeye tıklayın.</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Navigasyon çekmecrsini aç</string>
+    <string name="navigation_drawer_close">Navigasyon çekmecesini kapa</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Gezinti Başlığı</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="menu_home">Ev</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_slideshow">Slayt Gösterisi</string>
+    <string name="menu_tools">Araçlar</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_send">Gönder</string>
+
+    <string name="words_per_minute">dakika başına kelimeler</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="sentiment">Genel Duygu</string>
+    <string name="sentiment_expl">Duygu skoru 0 (negatif) ile 100 (pozitif) arasında değişmektedir ve metnin genel duygusal eğilimine tekabül etmektedir. Bir Google tarafından sağlanan Cloud Natural Language Machine Learning Kit kullanıyoruz</string>
+    <string name="entities_list">Varlıklar Listesi</string>
+    <string name="name">Adı:</string>
+    <string name="type">Tür:</string>
+    <string name="importance">Önem:</string>
+    <string name="light_theme">Işık Teması</string>
+    <string name="super_dark_theme">Süper Koyu Tema</string>
+    <string name="save_exit">Kaydet ve çık</string>
+</resources>

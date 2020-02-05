@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Filippo Natuzzi-->
+<resources>
+    <string name="app_name">Analizzatore di Testo</string>
+    <string name="scan">Scansione</string>
+    <string name="enter">Inserisci o incolla qui</string>
+    <string name="characters">Caratteri</string>
+    <string name="words">Parole</string>
+    <string name="sentences">Frasi</string>
+    <string name="paragraphs">Paragrafi</string>
+    <string name="occurence_title">Parole Più Frequenti</string>
+    <string name="overview_title">Panoramica</string>
+    <string name="analysis">Analisi</string>
+    <string name="total_character_count">Totale Caratteri: </string>
+    <string name="total_whitespace_count">Totale Spazi Bianchi: </string>
+    <string name="total_word_count">Totale Parole: </string>
+    <string name="total_sentence_count">Totale Frasi: </string>
+    <string name="total_paragraph_count">Totale Paragrafi: </string>
+    <string name="number_different_words">Numero di Parole Diverse: </string>
+    <string name="word_variety_ratio">Rapporto Varietà Parole: </string>
+    <string name="readability">Leggibilità (6-facile 20-difficile): </string>
+    <string name="reading_speed">Velocità di lettura</string>
+    <string name="average_adult">Adulto Medio (250 p/m): </string>
+    <string name="college_level">Studente Universitario (300 p/m): </string>
+    <string name="professional_speaker">Lettore Professionale (180 p/m): </string>
+    <string name="word_length">Lunghezza Parola</string>
+    <string name="word_count">Conteggio Parole</string>
+    <string name="frequency">Frequenza</string>
+    <string name="length_distribution">Distribuzione della Lunghezza delle Parole</string>
+    <string name="recommendation">Suggerimenti</string>
+    <string name="custom_speed">Personalizzazione parole/minuto:</string>
+
+    <string name="minutes">minuti</string>
+    <string name="word">Parola</string>
+    <string name="occurrences">Occorrenze</string>
+    <string name="longest_word">Parola Più Lunga: </string>
+    <string name="longest_sentence">Frase Più Lunga: </string>
+    <string name="frequency_help">Le parole ad alta frequenza sono in verde. Valuta se cambiarle per una maggior varietà</string>
+    <string name="disclaimer">Il Valutatore di Testo utilizza la libreria di Riconoscimento di Testo fornita dal kit di Apprendimento Automatico di Google. A causa della complessità dell\'analisi del testo suggeriamo di non fare troppo affidamento sulle caratteristiche della fotocamera di quest\'app se usata per testi importanti</string>
+    <string name="made_by_student">Realizzato da uno Studente Universitario</string>
+    <string name="dark_theme">Tema Scuro</string>
+    <string name="min_char_per_word">Minimo caratteri per parola:</string>
+    <string name="archive">Archivio</string>
+    <string name="rate_app">Vota quest\'App</string>
+    <string name="contact">Contattami</string>
+    <string name="about_me">Informazioni su&#8230;</string>
+    <string name="encounter_problem">Se trovi un bug o un errore sentiti libero di contattarmi. Proverò a correggerli il prima possibile. Grazie!</string>
+    <string name="app_description">Quest\'app è progettata per aumentare la tua produttività e renderti la vità più semplice. L\'app è uno strumento efficace per analizzare testi e articoli prima di inviarli qualora vi sia un limite di caratteri. Quest\'app raccoglie le parole più frequenti per generare statistiche sulle parole più diffuse che saranno disponibili nel prossimo aggiornamento.</string>
+    <string name="connect_with_us">Connettiti con noi</string>
+    <string name="instagram">Puoi trovarmi su Instagram</string>
+    <string name="youtube">Scopri le mie guide</string>
+    <string name="clear_archive">Elimina l\'Archivio</string>
+    <string name="are_you_sure">Sei sicuro di voler eliminare l\'Archivio?</string>
+    <string name="delete_success">Cancellazione avvenuta con successo</string>
+    <string name="camera_permission">Sono richiesti i Permessi per la Modalità Fotocamera</string>
+    <string name="scan_success">Scansione avvenuta con successo. Salvato nell\'Archivio</string>
+    <string name="scan_fail">Scansione fallita</string>
+
+    <string name="translate_app">Aiuta a tradurre</string>
+
+    <string name="title_activity_navigation">Attività di Navigazione</string>
+    <string name="navigation_drawer_open">Apri il Navigatore</string>
+    <string name="navigation_drawer_close">Chiudi il Navigatore</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Intestazione Navigazione</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Galleria</string>
+    <string name="menu_slideshow">Presentazione</string>
+    <string name="menu_tools">Strumenti</string>
+    <string name="menu_share">Condividi</string>
+    <string name="menu_send">Invia</string>
+
+    <string name="words_per_minute">parole al minuto</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="syntax_title">Analisi della sintassi</string>
+    <string name="syntax_expl">Fare clic su ciascuna parola per visualizzare la sintassi e l\'analisi morfologica.</string>
+    <string name="sentiment">Sentimento Generale</string>
+    <string name="sentiment_expl">il punteggio del sentiment varia tra 0 (negativo) e 100 (positivo) e corrisponde alla tendenza emotiva complessiva del testo. Stiamo utilizzando il kit di apprendimento automatico della lingua naturale di Cloud fornito da Google</string>
+    <string name="entities_list">" Elenco delle Entità"</string>
+    <string name="name">Nome:</string>
+    <string name="type">Genere:</string>
+    <string name="importance">Importanza:</string>
+    <string name="light_theme">Tema leggero</string>
+    <string name="super_dark_theme">Tema super scuro</string>
+    <string name="save_exit">Salva ed esci</string>
+</resources>

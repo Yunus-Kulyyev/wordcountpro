@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Text Analyzer</string>
+    <string name="scan">Sken</string>
+    <string name="enter">Vložiť alebo prilepiť</string>
+    <string name="characters">Znaky</string>
+    <string name="words">Slová</string>
+    <string name="sentences">Vety</string>
+    <string name="paragraphs">Odseky</string>
+    <string name="occurence_title">Najčastejšie slová</string>
+    <string name="overview_title">Prehľad</string>
+    <string name="analysis">Analýza</string>
+    <string name="total_character_count">Celkový počet znakov: </string>
+    <string name="total_whitespace_count">Celkový počet medzier: </string>
+    <string name="total_word_count">Celkový počet slov: </string>
+    <string name="total_sentence_count">Celkový počet viet: </string>
+    <string name="total_paragraph_count">Celkový počet odsekov: </string>
+    <string name="number_different_words">počet rôznych slov:</string>
+    <string name="word_variety_ratio">Pomer odlišných slov: </string>
+    <string name="readability">Čitateľnosť (6-ľahké 20-náročné): </string>
+    <string name="reading_speed">Rýchlosť čítania</string>
+    <string name="average_adult">Priemerný človek (250 slov za min.): </string>
+    <string name="college_level">Vysokoškolský študent (300 slov za min.): </string>
+    <string name="professional_speaker">Profesionálny rozprávač (180 slov za min.): </string>
+    <string name="word_length">Dĺžka slova</string>
+    <string name="word_count">Súčet slov</string>
+    <string name="frequency">Frekvencia</string>
+    <string name="length_distribution">Rozloženie slov podľa dĺžky</string>
+    <string name="recommendation">Odporúčanie</string>
+    <string name="custom_speed">Použitie slov/minúta:</string>
+
+    <string name="minutes">minúty</string>
+    <string name="word">Slovo</string>
+    <string name="occurrences">Výskyt</string>
+    <string name="longest_word">Najdlhšie slovo: </string>
+    <string name="longest_sentence">Najdlhšia veta: </string>
+    <string name="frequency_help">Slová s častou frekvenciou sú vyznačené zelenou farbou. Zváž ich zmenu pre udržanie rôznorodosti.</string>
+    <string name="disclaimer">Hodnotenie textu využíva knižnicu textového poznania, ktorá je dostupná prostredníctvom Google Machine Learning Kit. Kvôli komplexnej analýze textu neodporúčam spoliehať sa na fotoaparát v tejto aplikácii, pokiaľ ide o dôležité dokumenty.</string>
+    <string name="made_by_student">Vyrobil študent vysokej školy</string>
+    <string name="dark_theme">Tmavá téma</string>
+    <string name="min_char_per_word">Minimum znakov na slovo</string>
+    <string name="archive">Archív</string>
+    <string name="rate_app">Ohodnoť túto aplikáciu</string>
+    <string name="contact">Kontaktuj ma</string>
+    <string name="about_me">O mne a aplikácii</string>
+    <string name="encounter_problem">Ak sa stretneš s chybou alebo s niečím nesprávnym, pokojne ma kontaktuj. Pokúsim sa to vyriešiť čo najskôr. Vďaka!</string>
+    <string name="app_description">Táto aplikácia je vytvorená preto, aby zvýšila tvoju produktivitu a uľahčila ti život. Táto aplikácia je efektívny nástroj pre analyzovanie tvojich esejí alebo pre nejaké iné platformy, ktoré vyžadujú limit slov. Aplikácia zbiera najčastejšie používané slová a generuje štatistiku najpoužívanejších slov, ktorá bude dostupná v najbližšej aktualizácii.</string>
+    <string name="connect_with_us">Spoj sa s nami</string>
+
+    <string name="instagram">Môžeš ma nájsť na Instagrame</string>
+    <string name="youtube">Pozri si moje návody</string>
+    <string name="clear_archive">Vyčistiť archív</string>
+    <string name="are_you_sure">"Určite chceš vyčistiť archív?</string>
+    <string name="delete_success">Úspešne zmazané</string>
+    <string name="camera_permission">Pre použitie fotoaparátu je potrebné udeliť povolenie aplikácii</string>
+    <string name="scan_success">Skenovanie úspešné. Uložené v archíve</string>
+    <string name="scan_fail">Skenovanie zlyhalo</string>
+
+    <string name="translate_app">Pomoc s prekladom</string>
+
+    <string name="title_activity_navigation">Aktivita</string>
+    <string name="navigation_drawer_open">Otvoriť navigačný panel</string>
+    <string name="navigation_drawer_close">Zavrieť navigačný panel</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigačný panel</string>
+    <string name="action_settings">Nastavenia</string>
+
+    <string name="menu_home">Domov</string>
+    <string name="menu_gallery">Galéria</string>
+    <string name="menu_slideshow">Prezentácia</string>
+    <string name="menu_tools">Nástroje</string>
+    <string name="menu_share">Zdieľať</string>
+    <string name="menu_send">Poslať</string>
+    <string name="entities_list">Zoznam subjektov</string>
+    <string name="importance">" Význam:"</string>
+    <string name="light_theme">Svetlá téma</string>
+    <string name="name">Názov:</string>
+    <string name="sentiment">Celkový sentiment:</string>
+    <string name="sentiment_expl">Skóre sentimentu sa pohybuje medzi 0 (negatívny) a 100 (pozitívny) a zodpovedá celkovému emočnému sklonu textu. Používame výučbovú súpravu strojového jazyka Cloud Natural Language poskytovanú spoločnosťou Google</string>
+    <string name="super_dark_theme">Super temná téma</string>
+    <string name="syntax_expl">"Kliknutím na každé slovo zobrazíte syntax a morfologickú analýzu. "</string>
+    <string name="syntax_title">Syntaktická analýza</string>
+    <string name="type">Typ:</string>
+    <string name="words_per_minute">slov za minútu</string>
+    <string name="save_exit">Uložiť a ukončiť</string>
+
+</resources>

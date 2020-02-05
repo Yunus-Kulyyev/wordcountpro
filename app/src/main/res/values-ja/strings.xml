@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string
+    name="app_name">Text Analyzer</string>
+
+    <string
+        name="scan">スキャン</string>
+
+    <string
+        name="enter">ここに入力または貼り付け</string>
+
+    <string
+        name="characters">文字</string>
+
+    <string
+        name="words">単語</string>
+
+    <string
+        name="sentences">文</string>
+
+    <string
+        name="paragraphs">段落</string>
+
+    <string
+        name="occurence_title">使用度の高い単語</string>
+
+    <string
+        name="overview_title">概要</string>
+
+    <string
+        name="analysis">分析</string>
+
+    <string
+        name="total_character_count">合計文字数:
+</string>
+
+    <string
+        name="total_whitespace_count">合計空白数:
+</string>
+
+    <string
+        name="total_word_count">総単語数:
+</string>
+
+    <string
+        name="total_sentence_count">総文数:
+</string>
+
+    <string
+        name="total_paragraph_count">総段落数:
+</string>
+
+    <string
+        name="number_different_words">異なる単語の数:
+</string>
+
+    <string
+        name="word_variety_ratio">単語の変化率:
+</string>
+
+    <string
+        name="readability">読みやすさ(6-easy
+ 20-hard):
+</string>
+
+    <string
+        name="reading_speed">読書速度</string>
+
+    <string
+        name="average_adult">平均的な大人
+ (250 wpm):
+</string>
+
+    <string
+        name="college_level">大学生
+(300 wpm):
+</string>
+
+    <string
+        name="professional_speaker">プロの話者(180
+ wpm):
+</string>
+
+    <string
+        name="word_length">単語の長さ</string>
+
+    <string
+        name="word_count">単語数</string>
+
+    <string
+        name="frequency">頻度</string>
+
+    <string
+        name="length_distribution">単語の長さの分布</string>
+
+    <string
+        name="recommendation">レコメンデーション</string>
+
+    <string
+        name="custom_speed">カスタム
+ 単語/分:</string>
+
+
+
+    <string
+        name="minutes">分</string>
+
+    <string
+        name="word">単語</string>
+
+    <string
+        name="occurrences">使用頻度</string>
+
+    <string
+        name="longest_word">最長の単語:</string>
+
+    <string
+        name="longest_sentence">最長の文:</string>
+    <string
+        name="frequency_help">高頻出の単語は緑色です。それらに表現の変化を追加する事を考慮してください。</string>
+
+    <string
+        name="disclaimer">Text
+ Evaluatorは、 GoogleのMachine Learning Kitにより提供されます。テキストの分析は複雑であるため、重要なテキストを使用する場合、このアプリのカメラ機能に大きく依存しないことをお勧めします。</string>
+
+    <string
+        name="made_by_student">学生による作成</string>
+
+    <string
+        name="dark_theme">ダークテーマ</string>
+
+    <string
+        name="min_char_per_word">単語ごとの最小文字数:</string>
+
+    <string
+        name="archive">アーカイブ</string>
+
+    <string
+        name="rate_app">このアプリを評価</string>
+
+    <string
+        name="contact">私の連絡先</string>
+
+    <string
+        name="about_me">私とこのアプリについて</string>
+
+    <string
+        name="encounter_problem">バグ等に遭遇した場合、お気軽に連絡ください。できるだけ早く修正を試みます。ありがとう！</string>
+
+    <string
+        name="app_description">このアプリは、生産性を向上させ、人生を手助けできるように設計されています。
+ このアプリは、投稿する前に、エッセイ論文または文字数制限のある他のプラットフォーム用に文章を分析するために効果的なツールです。今後のアップデートで、頻繁に使用された単語を分析し、使用頻度の高い単語の統計を生成出来る様にします。</string>
+
+    <string
+        name="connect_with_us">私達と繋がる</string>
+
+    <string
+        name="instagram">Instagram</string>
+
+    <string
+        name="youtube">チュートリアルを見る</string>
+
+    <string
+        name="clear_archive">アーカイブを削除</string>
+
+    <string
+        name="are_you_sure">"アーカイブを削除しますか？</string>
+
+    <string
+        name="delete_success">正常に削除しました</string>
+
+    <string
+        name="camera_permission">カメラモードの使用にはカメラの権限が必要です。</string>
+
+    <string
+        name="scan_success">正常にスキャンされ、アーカイブに保存しました。</string>
+
+    <string
+        name="scan_fail">スキャン失敗</string>
+
+    <string
+        name="save_exit">保存して終了</string>
+
+
+
+    <string
+        name="translate_app">翻訳のヘルプ</string>
+
+
+
+    <string
+        name="title_activity_navigation">ナビゲーションアクティビティ</string>
+
+    <string
+        name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+
+    <string
+        name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+
+    <string
+        name="nav_header_title">Android
+ Studio</string>
+
+    <string
+        name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string
+        name="nav_header_desc">ナビゲーションヘッダー</string>
+
+    <string
+        name="action_settings">設定</string>
+
+
+
+    <string
+        name="menu_home">ホーム</string>
+
+    <string
+        name="menu_gallery">ギャラリー</string>
+
+    <string
+        name="menu_slideshow">スライドショー</string>
+
+    <string
+        name="menu_tools">ツール</string>
+
+    <string
+        name="menu_share">共有</string>
+
+    <string
+        name="menu_send">送信</string>
+
+
+
+    <string
+        name="server_client_id"
+        translatable="false">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+
+    <string
+        name="syntax_title">構文分析</string>
+
+    <string
+        name="syntax_expl">各単語をクリックして、構文及び形態学的分析を表示する。</string>
+
+
+
+    <string
+        name="words_per_minute">毎分の単語数</string>
+
+    <string
+        name="sentiment">全体的な文章の感情</string>
+
+    <string
+        name="sentiment_expl">感情のスコアは0(負)から100(正)の範囲であり、テキスト全体の感情の傾きに対応します。
+ Googleが提供するCloud Natural Language Machine Learning Kitを使用しています</string>
+
+    <string
+        name="entities_list">エンティティのリスト</string>
+
+    <string
+        name="name">名前:</string>
+
+    <string
+        name="type">タイプ:</string>
+
+    <string
+        name="importance">重要度:</string>
+
+    <string
+        name="light_theme">ライトテーマ</string>
+
+    <string
+        name="super_dark_theme">スーパーダークテーマ</string>
+
+
+
+</resources>

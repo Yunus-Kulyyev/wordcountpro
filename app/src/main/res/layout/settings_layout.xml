@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:paddingBottom="4dp"
+              android:background="@color/colorBackground"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/dark_theme_foreground"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/back_drawable"
+        android:id="@+id/go_back"
+        android:padding="4dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/save_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/original_theme_layout"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:gravity="center"
+            android:id="@+id/light_theme_text"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#3B3F42"
+            android:text="@string/light_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <Switch
+            android:id="@+id/light_drawer_switch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/theme_layout"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:gravity="center"
+            android:id="@+id/dark_theme_text"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#3B3F42"
+            android:text="@string/dark_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <Switch
+            android:id="@+id/drawer_switch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/super_theme_layout"
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:gravity="center"
+            android:id="@+id/super_dark_theme_text"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#3B3F42"
+            android:text="@string/super_dark_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <Switch
+            android:id="@+id/super_drawer_switch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:id="@+id/word_length_switch"
+            android:textSize="16sp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#3B3F42"
+            android:text="@string/min_char_per_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/word_length_switch"
+            android:textColor="@android:color/black"
+            android:id="@+id/progress_word_length"
+            android:text="3"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <SeekBar
+            android:layout_below="@+id/word_length_switch"
+            android:id="@+id/seek_bar"
+            android:max="6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="8dp"
+            android:textSize="16sp"
+            android:text="Language"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:spinnerMode="dropdown"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/language_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

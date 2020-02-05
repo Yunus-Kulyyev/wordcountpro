@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "516955232606",
+    "firebase_url": "https://wordcountpro-e68f7.firebaseio.com",
+    "project_id": "wordcountpro-e68f7",
+    "storage_bucket": "wordcountpro-e68f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516955232606:android:5c48aae4ee978377",
+        "android_client_info": {
+          "package_name": "com.graspery.www.wordcountpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516955232606-9f8sfqabhqjeo32knqekerf9186hkiv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.graspery.www.wordcountpro",
+            "certificate_hash": "0d86172afed2c7841ad0cef706699ae9bc1612ad"
+          }
+        },
+        {
+          "client_id": "516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiHXlRHYByZjsx0kHKlsZgn7G0ps1-NOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

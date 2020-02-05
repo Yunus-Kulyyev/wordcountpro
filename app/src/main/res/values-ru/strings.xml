@@ -1,0 +1,89 @@
+<!--Anton-->
+<resources>
+    <string name="app_name">Анализатор текста</string>
+    <string name="scan">Скан</string>
+    <string name="enter">Напишите или вставьте текст</string>
+    <string name="characters">Букв</string>
+    <string name="words">Слов</string>
+    <string name="sentences">Предложений</string>
+    <string name="paragraphs">Абзацев</string>
+    <string name="occurence_title">Чаще всего встречающиеся слова</string>
+    <string name="overview_title">Просмотр</string>
+    <string name="analysis">Анализ</string>
+    <string name="total_character_count">Всего букв: </string>
+    <string name="total_whitespace_count">Всего пробелов: </string>
+    <string name="total_word_count">Всего слов: </string>
+    <string name="total_sentence_count">Всего предложений: </string>
+    <string name="total_paragraph_count">Всего абзацев: </string>
+    <string name="number_different_words">Количество различающихся слов: </string>
+    <string name="word_variety_ratio">Соотношение разнообразия слов: </string>
+    <string name="readability">Читаемость (6 — проще, 20 — сложнее): </string>
+    <string name="reading_speed">Скорость прочтения</string>
+    <string name="average_adult">Взрослый (250 слов/мин): </string>
+    <string name="college_level">Учащийся (300 слов/мин): </string>
+    <string name="professional_speaker">Оратор (180 слов/мин): </string>
+    <string name="word_length">Длина слов</string>
+    <string name="word_count">Колич. слов</string>
+    <string name="frequency">Частота встречи</string>
+    <string name="length_distribution">Распределение слов по длине</string>
+    <string name="recommendation">Рекомендации</string>
+    <string name="custom_speed">Другое значение: </string>
+
+    <string name="minutes">минут</string>
+    <string name="word">Слово</string>
+    <string name="occurrences">Кол. встреч</string>
+    <string name="longest_word">Самое длинное слово: </string>
+    <string name="longest_sentence">Самое длинное предложение: </string>
+    <string name="frequency_help">Наиболее часто встреченные слова помечены зелёным. Возможно, стоит их изменить.</string>
+    <string name="disclaimer">Text Evaluator использует библиотеку распознавания текста, предоставленную Google как часть Machine Learning Kit. Из-за трудностей, связанных с распознаванием текста, рекомендуем при анализе важных документов не полагаться на функцию распознавания текста по фото.</string>
+    <string name="made_by_student">Студенческая работа</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="min_char_per_word">Минимум букв в слове: </string>
+    <string name="archive">Архив</string>
+    <string name="rate_app">Оцените приложение</string>
+    <string name="contact">Связь с автором</string>
+    <string name="about_me">О приложении</string>
+    <string name="encounter_problem">Если вы обнаружите ошибки, свяжитесь со мной. Я постараюсь как можно быстрее их исправить. Спасибо!</string>
+    <string name="app_description">Это приложение создано, чтобы повысить вашу продуктивность и упростить вам жизнь. Оно поможет проверить вашу работу перед публикацией. Приложение собирает наиболее часто встречающиеся слова, чтобы составить статистику популярных слов, которая появится в будущих версиях.</string>
+    <string name="connect_with_us">Связаться</string>
+    <string name="instagram">Я в Instagram</string>
+    <string name="youtube">Мои уроки программирования (на английском)</string>
+    <string name="clear_archive">Очистить архив</string>
+    <string name="are_you_sure">Вы уверены, что хотите очистить архив?</string>
+    <string name="delete_success">Успешно удалено</string>
+    <string name="camera_permission">Для использования камеры необходимо разрешение</string>
+    <string name="scan_success">Успешно отсканировано, добавлено в архив</string>
+    <string name="scan_fail">Сканирование не удалось</string>
+
+    <string name="translate_app">Помощь в переводе</string>
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Открыть навигационную панель</string>
+    <string name="navigation_drawer_close">Закрыть навигационную панель</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Заголовок навигационной панели</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Галерея</string>
+    <string name="menu_slideshow">Слайдшоу</string>
+    <string name="menu_tools">Инструменты</string>
+    <string name="menu_share">Поделиться</string>
+    <string name="menu_send">Отправить</string>
+
+    <string name="words_per_minute">слов/мин</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="syntax_title">Синтаксический анализ</string>
+    <string name="syntax_expl">Нажмите на каждое слово, чтобы увидеть синтаксический и морфологический анализ.</string>
+    <string name="sentiment">Общее настроение</string>
+    <string name="sentiment_expl">оценка настроения колеблется от 0 (отрицательный) до 100 (положительный) и соответствует общему эмоциональному восприятию текста. Мы используем Cloud Machine Language Learning Kit, предоставленный Google</string>
+    <string name="entities_list">Список объектов</string>
+    <string name="name">Название:</string>
+    <string name="type">" Тип:"</string>
+    <string name="importance">Важность:</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="super_dark_theme">Супер Темная Тема</string>
+    <string name="save_exit">Сохранить и выйти</string>
+</resources>

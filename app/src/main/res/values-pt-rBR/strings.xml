@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Vinícius Pereira de Mesquita-->
+    <!--Beto Guimarães-->
+    <!--Carlos Araujo-->
+<resources>
+    <string name = "app_name">Analisador de Texto</string>
+    <string name = "scan">Examinar</string>
+    <string name = "enter">Digite ou cole aqui</string>
+    <string name = "characters">Caracteres</string>
+    <string name = "words">Palavras</string>
+    <string name = "sentences">Frases</string>
+    <string name = "paragraphs">Parágrafos</string>
+    <string name = "occurence_title">Palavras de Maior Ocorrência</string>
+    <string name = "overview_title">Visão geral</string>
+    <string name = "analysis">Análise</string>
+    <string name = "total_character_count">Contagem Total de Caracteres: </string>
+    <string name = "total_whitespace_count">Contagem total de Espaço em Bbranco: </string>
+    <string name = "total_word_count">Contagem Total de Palavras: </string>
+    <string name = "total_sentence_count">Contagem Total de Frases: </string>
+    <string name = "total_paragraph_count">Contagem Total de Parágrafos: </string>
+    <string name = "number_different_words">Número de Palavras Diferentes: </string>
+    <string name = "word_variety_ratio">Percentagem de Variedade de Palavras: </string>
+    <string name = "readability">Legibilidade (6 - fácil 20 - difícil): </string>
+    <string name = "reading_speed">Velocidade de Leitura</string>
+    <string name = "average_adult">Adulto médio (250 ppm): </string>
+    <string name = "college_level">Estudante universitário (300 ppm): </string>
+    <string name = "professional_speaker">Falante profissional (180 ppm): </string>
+    <string name = "word_length">Comprimento da Palavra</string>
+    <string name = "word_count">Contagem de Palavras</string>
+    <string name = "frequency">Frequência</string>
+    <string name = "length_distribution">Distribuição do Comprimento da Palavra</string>
+    <string name = "recommendation">Indicação</string>
+    <string name = "custom_speed">Palavras/minutos personalizado: </string>
+
+    <string name = "minutes">minutos</string>
+    <string name = "word">Palavra</string>
+    <string name = "occurrences">Ocorrências</string>
+    <string name = "longest_word">Palavra mais longa: </string>
+    <string name = "longest_sentence">Frase Mais Longa: </string>
+    <string name = "frequency_help">Palavras de alta frequência estão em verde. Considere mudá-las para obter maior variedade </string>
+    <string name = "disclaimer">O Text Evaluator usa a biblioteca de reconhecimento de texto que é fornecido pelo Machine Learning Kit do Google. Devido à complexidade da análise de texto, recomendamos que você não dependa muito do recurso de câmera deste aplicativo quando usado com textos importantes</string>
+    <string name = "made_by_student">Feito por estudante universitário</string>
+    <string name = "dark_theme">Tema Escuro</string>
+    <string name = "min_char_per_word">Mínimo de caracteres por palavra: </string>
+    <string name = "archive">Arquivar</string>
+    <string name = "rate_app">Avalie este aplicativo</string>
+    <string name = "contact">Entre em contato</string>
+    <string name = "about_me">Sobre mim e o aplicativo</string>
+    <string name = "encounter_problem">Se você encontrar um erro ou imprecisão, sinta-se à vontade para entrar em contato comigo. Vou tentar corrigi-los o mais rápido possível. Obrigado! </string>
+    <string name = "app_description">Este aplicativo foi concebido para aumentar a sua produtividade e facilitar a sua vida. O aplicativo é uma ferramenta eficaz para analisar o seu trabalho de redação antes do envio ou para qualquer outra plataforma que exija o limite de palavras. Este aplicativo coleta as palavras mais comuns para gerar as estatísticas de palavras mais populares que estarão disponíveis para você na próxima atualização.</string>
+    <string name = "connect_with_us">Conecte-se conosco</string>
+    <string name = "instagram">Você pode me encontrar no Instagram</string>
+    <string name = "youtube">Confira meus tutoriais</string>
+    <string name = "clear_archive">Limpar arquivo</string>
+    <string name = "are_you_sure">"Tem certeza de que deseja limpar o arquivo?</string>
+    <string name = "delete_success">Excluído com sucesso</string>
+    <string name = "camera_permission">É necessária a permissão da câmera para usar o modo de câmera</string>
+    <string name = "scan_success">Analisado com sucesso. Salvo no arquivo</string>
+    <string name = "scan_fail">Falha na Análise</string>
+
+    <string name = "translate_app">Ajuda para Traduzir</string>
+
+    <string name = "title_activity_navigation">Atividade de Navegação</string>
+    <string name = "navigation_drawer_open">Abrir o drawer de navegação</string>
+    <string name = "navigation_drawer_close">Fechar o drawer de navegação </string>
+    <string name = "nav_header_title">Android Studio</string>
+    <string name = "nav_header_subtitle">android.studio@android.com</string>
+    <string name = "nav_header_desc">cabeçalho de navegação</string>
+    <string name = "action_settings">Configurações</string>
+
+    <string name = "menu_home">Página inicial</string>
+    <string name = "menu_gallery">Galeria</string>
+    <string name = "menu_slideshow">Apresentação de slides</string>
+    <string name = "menu_tools">Ferramentas </string>
+    <string name = "menu_share">Compartilhar</string>
+    <string name = "menu_send">Enviar</string>
+
+    <string name="words_per_minute">palavras por minuto</string>
+
+    <string name="server_client_id">516955232606-55r227i4dt3gdorqlhf8s6ta4pm94euj.apps.googleusercontent.com</string>
+    <string name="syntax_title">Análise de Sintaxe</string>
+    <string name="syntax_expl">Clique em cada palavra para ver a sintaxe e a análise morfológica.</string>
+    <string name="sentiment">Sentimento Geral</string>
+    <string name="sentiment_expl">A pontuação do sentimento varia entre 0 (negativo) e 100 (positivo) e corresponde à inclinação emocional geral do texto. Estamos usando o Cloud Natural Language Machine Learning Kit fornecido pelo Google</string>
+    <string name="entities_list">Lista de Entidades</string>
+    <string name="name">Nome:</string>
+    <string name="type">Tipo:</string>
+    <string name="importance">Importância:</string>
+    <string name="light_theme">Tema claro</string>
+    <string name="super_dark_theme">" Tema super escuro"</string>
+    <string name="save_exit">Salvar e sair</string>
+</resources>

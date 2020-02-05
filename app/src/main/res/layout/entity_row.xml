@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <GridLayout
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="@string/name"
+            android:id="@+id/name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:id="@+id/entity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:id="@+id/type_title"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:id="@+id/entity_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:id="@+id/importance_title"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/importance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:id="@+id/entity_importance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:id="@+id/link_title"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="Link:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="4dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginLeft="8dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:id="@+id/entity_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </GridLayout>
+
+</LinearLayout>

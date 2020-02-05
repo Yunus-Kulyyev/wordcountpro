@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="8dp"
+        android:textSize="24sp"
+        android:id="@+id/go_back"
+        android:drawableStart="@drawable/back_drawable"
+        android:text="Go Back"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:layout_below="@+id/go_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/image_view"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/nav_header_desc"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/app_name_text"
+        android:layout_below="@+id/image_view"
+        android:text="Text Analyzer Pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/register_text_view"
+        android:layout_below="@id/app_name_text"
+        android:gravity="center"
+        android:text="CREATE NEW\nACCOUNT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/linear_register"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:orientation="vertical"
+        android:layout_above="@+id/register_button"
+        android:layout_below="@+id/register_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:padding="4dp"
+            android:drawableStart="@drawable/user_drawable"
+            android:drawablePadding="8dp"
+            android:textStyle="italic"
+            android:background="@null"
+            android:hint="Full Name"
+            android:id="@+id/full_name"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <View
+            android:background="#C2C6C6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <EditText
+            android:drawablePadding="8dp"
+            android:padding="4dp"
+            android:drawableStart="@drawable/email_drawable"
+            android:textStyle="italic"
+            android:background="@null"
+            android:hint="Email"
+            android:id="@+id/email_input"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <View
+            android:background="#C2C6C6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <EditText
+            android:drawablePadding="8dp"
+            android:id="@+id/password_input"
+            android:drawableStart="@drawable/key_drawable"
+            android:padding="4dp"
+            android:textStyle="italic"
+            android:background="@null"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <View
+            android:background="#C2C6C6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <com.graspery.www.wordcountpro.NormalTextView
+            android:id="@+id/terms_conditions"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="By tapping &quot;Create New Account&quot; you\n agree to the terms and conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_button"
+        android:textStyle="bold"
+        android:elevation="8dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@android:color/white"
+        android:text="Create New Account"
+        android:background="@drawable/circular_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/register_load"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

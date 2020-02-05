@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_part_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_aspect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_case"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_mood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_proper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_reciprocity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_tense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.graspery.www.wordcountpro.NormalTextView
+        android:id="@+id/syn_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
